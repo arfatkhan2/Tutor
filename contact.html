@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tutor Web App</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="navbar-flex container">
+        <img src="./images/logo.svg" alt="Tutor" />
+        <div class="main-menu-items">
+          <ul class="main-menu-list">
+            <li><a href="#">Home </a></li>
+            <li><a href="#chapters">Chapters </a></li>
+            <li><a href="#summary">Summary </a></li>
+            <li><a href="#takeaways">Takeaways </a></li>
+            <li><a href="#author">Author </a></li>
+            <li><a href="#contact">Contact </a></li>
+          </ul>
+        </div>
+
+        <!-- Mobile Menu -->
+        <div class="mobile-menu">
+          <!-- Hamburger Menu -->
+          <div class="mobile-menu-toggle">
+            <i class="fas fa-bars fa-2x"></i>
+          </div>
+          <!-- Mobile Menu List -->
+          <div class="mobile-menu-items">
+            <ul class="mobile-menu-list">
+              <li><a href="#">Home </a></li>
+              <li><a href="#chapters">Chapters </a></li>
+              <li><a href="#summary">Summary </a></li>
+              <li><a href="#takeaways">Takeaways </a></li>
+              <li><a href="#author">Author </a></li>
+              <li><a href="#contact">Contact </a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Inner Header -->
+    <header class="contact-header">
+      <div class="container">
+        <div class="header-content">
+          <h1>Contact Us</h1>
+        </div>
+      </div>
+    </header>
+
+    <!-- contact Us section -->
+
+    <div class="section contact-us">
+      <div class="container">
+        <div class="contact-content">
+          <p>
+            We love to Create dependable business . Solutions for Small and
+            medium sized work Companies . Email our office using
+            contact@website.com or call using +9245 52555
+          </p>
+
+          <form   action="https://formspree.io/f/manwzaog"
+          method="POST">
+
+            <div class="contact-name">
+                <input type="text" name="Name" placeholder="name" />
+              </div>
+              <div class="contact-email">
+                <input type="email" name="Email" placeholder="Email Address" />
+              </div>
+              <textarea
+                name="Message"
+                id="message"
+                rows="10 "
+                placeholder="Enter your Message Here"
+              ></textarea>
+              <div class="contact-btn">
+                <button type="submit">Send Message</button>
+          </form>
+        
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer  -->
+
+    <footer class="footer">
+      <div class="footer-container">
+        <h3>
+          Follow us on social media for updates and news about our Courses :
+        </h3>
+
+        <div class="icons">
+          <a
+            href="https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2F"
+          >
+            <i class="fab fa-facebook fa-3x"></i
+          ></a>
+          <i class="fab fa-twitter fa-3x"></i>
+          <i class="fab fa-instagram fa-3x"></i>
+          <i class="fab fa-linkedin fa-3x"></i>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
